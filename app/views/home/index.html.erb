@@ -1,8 +1,15 @@
 <div class="container">
   <h1>Welcome to Bootstrap 4</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et,  
-     distinctio perspiciatis, fuga minus facilis ea quae qui laborum 
-     cupiditate accusamus.
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, distinctio perspiciatis, fuga minus facilis ea quae qui laborum cupiditate accusamus.
   </p>
   <button class="btn btn-primary">Button</button>
+  <% if user_signed_in? %>
+    <li>
+      <%= link_to('Logout', destroy_user_session_path, method: :delete) %>
+    </li>
+  <% else %>
+    <li>
+      <%= link_to('Login', new_user_session_path) %>
+    </li>
+  <% end %>
 </div>
