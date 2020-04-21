@@ -26,6 +26,7 @@ gem 'jbuilder', '~> 2.7'
 
 gem 'cancancan'
 gem 'devise'
+gem 'hirb'
 gem 'rolify'
 
 # Use Active Storage variant
