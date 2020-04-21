@@ -23,10 +23,12 @@ gem 'jbuilder', '~> 2.7'
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+gem 'administrate'
+gem 'bootstrap'
 gem 'cancancan'
 gem 'devise'
 gem 'hirb'
+gem 'jquery-rails'
 gem 'rolify'
 
 # Use Active Storage variant

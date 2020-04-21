@@ -10,6 +10,14 @@
   },
   "version": "0.1.0",
   "devDependencies": {
+    "bootstrap": "^4.4.1",
+    "dom-factory": "1.0.0",
+    "jquery": "^3.3.1",
+    "material-design-icons-iconfont": "^3.0.3",
+    "material-design-kit": "^1.0.0-alpha.24",
+    "popper.js": "^1.12.5",
+    "sidebar-style-guide": "^2.0.0",
+    "simplebar": "^3.1.1",
     "webpack-dev-server": "^3.10.3"
   }
 }
