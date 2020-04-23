@@ -16,7 +16,7 @@ class User < ApplicationRecord
 
   private
 
-  # def set_default_role
-  #   self.role ||= :normal
-  # end
+  def set_default_role
+    self.role ||= :normal
+  end
 end
